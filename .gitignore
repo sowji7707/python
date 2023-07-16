@@ -1,0 +1,29 @@
+.idea/
+desktop.ini
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+venv/
+env/
+env.bak/
+*.env
+
+# Packages
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3
+
+# Miscellaneous
+*.swp
+.DS_Store
