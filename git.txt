@@ -23,5 +23,5 @@ collaborate (see also: git help workflows)
    pull      Fetch from and integrate with another repository or a local branch
    push      Update remote refs along with associated o
 git add .
-git coomit -m "replace your comment here"
+git commit -m "replace your comment here"
 git push -u origin main
