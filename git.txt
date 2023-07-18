@@ -23,7 +23,10 @@ collaborate (see also: git help workflows)
    pull      Fetch from and integrate with another repository or a local branch
    push      Update remote refs along with associated o
 
+#getting the code from github to local:
+git pull
 
+# make code changes and at the end run below commands to pusch the code to github
 git add .
 git commit -m "added modules and packages"
 git push -u origin main
