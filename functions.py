@@ -9,6 +9,9 @@ functions:
 
 
 '''
+import variables
+
+variables.greet()
 
 def greet(msg):
     print(msg)
@@ -32,7 +35,7 @@ def check_leap_year(num):
     # return None
 
 # function with two arguments
-def add_numbers(num1=5, num2=2):
+def add_numbers(num1, num2, num3=5, num4=2, *args, **kwargs):
     sum = num1 + num2
     print('Sum: ',sum)
 
@@ -48,4 +51,4 @@ check_leap_year(3946)
 # function call with two values
 add_numbers(5, 4)
 add_numbers(5, 10)
-add_numbers()
+add_numbers(6,10)

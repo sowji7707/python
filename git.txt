@@ -22,6 +22,8 @@ collaborate (see also: git help workflows)
    fetch     Download objects and refs from another repository
    pull      Fetch from and integrate with another repository or a local branch
    push      Update remote refs along with associated o
+
+
 git add .
-git commit -m "replace your comment here"
+git commit -m "added modules and packages"
 git push -u origin main
