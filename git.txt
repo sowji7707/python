@@ -28,5 +28,5 @@ git pull
 
 # make code changes and at the end run below commands to pusch the code to github
 git add .
-git commit -m "added modules and packages"
+git commit -m "added calculator"
 git push -u origin main
