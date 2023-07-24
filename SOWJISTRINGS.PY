@@ -1,0 +1,11 @@
+COURSE="PYTHON FOR BEGINNERS"
+print(COURSE[0])
+print(COURSE[-1])
+print(COURSE[-2])
+print(COURSE[0:5])
+print(COURSE[1:6])
+print(COURSE[-1:-5])
+print(COURSE[1:])
+print(COURSE[:5])
+print(COURSE[:])
+print(COURSE[:-1])
