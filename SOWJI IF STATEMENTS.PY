@@ -63,4 +63,30 @@ elif len(name)> 5:
 else:
     print("name looks good")
 
+#WEIGHT CHANGES
+
+weight=int(input('weight: '))
+unit=input('(l)bs or (k)g: ')
+if unit =="l":
+    converted=weight * 0.45
+    print(f"you are{converted} kilos")
+else:
+    converted=weight/0.45
+    print(f"you are{converted} lbs")
+
+
+#WHILE CONDITION:
+i=1
+while i<=5:
+    print(i)
+    i=i+1
+print('done')
+
+i=1
+while i<=5:
+    print('*'*i)
+    i=i+1
+print('done')
+
+
 
