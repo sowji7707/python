@@ -11,3 +11,21 @@ while guess_count < guess_limit:
         break
 else:
     print('sorry you failed')
+
+#building car game:
+
+command=""
+while command!="quit":
+    command=input(">")
+    if command=="start":
+        print("car started")
+    elif command=="stop":
+        print("car stopped")
+    elif command=="help":
+        print("""
+              start-to start the car
+              stop-to stop the car
+              quit-to quit
+              """)
+    else:
+        print('i can not umderstand')        
